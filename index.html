@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Case Comp Tracker</title>
+  <meta name="description" content="Track open, upcoming and closed case competitions across consulting, finance, engineering, hackathons, marketing and more.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1>Case Comp Tracker</h1>
+      <p class="tagline">Case competitions across consulting, finance, engineering, marketing and more. Updated every night.</p>
+      <p class="updated" id="updated"></p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="filters" aria-label="Filters">
+      <div class="field field-search">
+        <label for="search">Search</label>
+        <input id="search" type="search" placeholder="Title or host...">
+      </div>
+      <div class="field">
+        <label for="f-status">Status</label>
+        <select id="f-status">
+          <option value="">All</option>
+          <option value="open">Open</option>
+          <option value="upcoming">Upcoming</option>
+          <option value="closed">Closed</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="f-level">Level</label>
+        <select id="f-level">
+          <option value="">All</option>
+          <option value="UG">UG</option>
+          <option value="PG">PG</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="f-domain">Domain</label>
+        <select id="f-domain"><option value="">All</option></select>
+      </div>
+      <div class="field">
+        <label for="f-host">Hosted by</label>
+        <select id="f-host">
+          <option value="">All</option>
+          <option value="college">College</option>
+          <option value="company">Company</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="f-sort">Sort by</label>
+        <select id="f-sort">
+          <option value="deadline">Deadline (soonest)</option>
+          <option value="recent">Recently verified</option>
+        </select>
+      </div>
+      <button id="reset" type="button" class="btn-ghost">Reset</button>
+    </section>
+
+    <p class="count" id="count" aria-live="polite"></p>
+    <section id="grid" class="grid" aria-label="Competitions"></section>
+    <p id="empty" class="empty" hidden>No competitions match these filters.</p>
+  </main>
+
+  <footer class="site-footer wrap">
+    <p>Details are collected automatically and may change. Always confirm on the official application page before registering.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
