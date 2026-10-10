@@ -44,7 +44,7 @@ python3 -m http.server 8000
 
 ## Set up the nightly agent
 
-1. Replace `REPO_OWNER/REPO_NAME` in `agent/nightly-prompt.md`.
+1. The repo name is already set in `agent/nightly-prompt.md`.
 2. Run the prompt manually a few times first and check the diff it produces.
 3. Create a scheduled task in Claude that runs the prompt daily at 10:00 PM IST (`CRON_TZ=Asia/Kolkata 0 22 * * *`). Each run is a fresh session, so the prompt must stay self-contained.
 4. Review `logs/` and any entries with `needs_review: true` once a day at first.

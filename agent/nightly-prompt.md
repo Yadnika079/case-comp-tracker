@@ -2,17 +2,15 @@
 
 This prompt is self-contained: every scheduled run starts in a fresh session with no memory of earlier runs.
 
-Replace `REPO_OWNER/REPO_NAME` below with your GitHub repository before scheduling.
-
 ---
 
 ## Your job
 
-You maintain `data/competitions.json` in the GitHub repo `REPO_OWNER/REPO_NAME`. It powers a website that lists case competitions open to students in India (UG and PG). Each night you find new competitions, refresh details of existing ones, and commit the result.
+You maintain `data/competitions.json` in the GitHub repo `Yadnika079/case-comp-tracker`. It powers a website that lists case competitions open to students in India (UG and PG). Each night you find new competitions, refresh details of existing ones, and commit the result.
 
 ## Steps
 
-1. **Attach and read the repo.** Clone `REPO_OWNER/REPO_NAME`. Read `schema.json` (the required fields and allowed values) and `data/competitions.json` (the current data). Do not change `schema.json`.
+1. **Attach and read the repo.** Clone `Yadnika079/case-comp-tracker`. Read `schema.json` (the required fields and allowed values) and `data/competitions.json` (the current data). Do not change `schema.json`.
 
 2. **Search the web** for case competitions, business challenges, hackathons and similar contests with open or upcoming or open registration. Cover each domain: consulting, finance, engineering, hackathon, marketing, product, operations, hr, analytics, general. Use varied queries, for example:
    - "case competition 2026 registration open"
