@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10",
+  "updated_at": "2026-10-11",
   "competitions": [
     {
       "id": "tvs-ride-2026-case-competition-track-a",
@@ -19,7 +19,9 @@
       "source_url": "https://unstop.com/competitions/crp-ride-case-competition-track-a-tvs-motor-tvs-motor-ride-2026-tvs-motor-company-1763797",
       "last_verified": "2026-10-10",
       "needs_review": false,
-      "review_notes": "Open only to first-year students of a 2-year full-time MBA at eligible campuses (B.E./B.Tech background required); teams of exactly 3, at least 1 woman encouraged. Online quiz to 17 Oct, executive summary to 18 Oct; finale date to be announced."
+      "review_notes": "Open only to first-year students of a 2-year full-time MBA at eligible campuses (B.E./B.Tech background required); teams of exactly 3, at least 1 woman encouraged. Online quiz to 17 Oct, executive summary to 18 Oct; finale date to be announced.",
+      "region": "India",
+      "date_status": "confirmed"
     },
     {
       "id": "tvs-ride-2026-case-competition-track-b",
@@ -39,7 +41,9 @@
       "source_url": "https://unstop.com/competitions/crp-ride-case-competition-track-b-tvs-motor-tvs-motor-ride-2026-tvs-motor-company-1761030",
       "last_verified": "2026-10-10",
       "needs_review": false,
-      "review_notes": "Open only to first-year students of a 2-year full-time MBA at eligible campuses (B.E./B.Tech background required); teams of exactly 3, at least 1 woman encouraged. Online quiz to 17 Oct, executive summary to 18 Oct; finale date to be announced."
+      "review_notes": "Open only to first-year students of a 2-year full-time MBA at eligible campuses (B.E./B.Tech background required); teams of exactly 3, at least 1 woman encouraged. Online quiz to 17 Oct, executive summary to 18 Oct; finale date to be announced.",
+      "region": "India",
+      "date_status": "confirmed"
     },
     {
       "id": "tvs-ride-2026-case-competition-hr",
@@ -59,7 +63,9 @@
       "source_url": "https://unstop.com/competitions/crp-ride-case-competition-hr-tvs-motor-tvs-motor-ride-2026-tvs-motor-company-1763790",
       "last_verified": "2026-10-10",
       "needs_review": false,
-      "review_notes": "Open only to first-year students of a 2-year full-time MBA with HR specialisation at eligible campuses (B.E./B.Tech background required); teams of exactly 3, at least 1 woman encouraged. Online quiz to 17 Oct, executive summary to 18 Oct; finale date to be announced."
+      "review_notes": "Open only to first-year students of a 2-year full-time MBA with HR specialisation at eligible campuses (B.E./B.Tech background required); teams of exactly 3, at least 1 woman encouraged. Online quiz to 17 Oct, executive summary to 18 Oct; finale date to be announced.",
+      "region": "India",
+      "date_status": "confirmed"
     },
     {
       "id": "usme-dtu-arthik-khayal-2026",
@@ -79,7 +85,9 @@
       "source_url": "https://unstop.com/competitions/arthik-khayal-2026-university-school-of-management-and-entrepreneurship-usmedelhi-1757602",
       "last_verified": "2026-10-10",
       "needs_review": false,
-      "review_notes": "Quiz 19-20 Oct, deck submission to 25 Oct, offline finale at DTU East Campus on 29 Oct 2026."
+      "review_notes": "Quiz 19-20 Oct, deck submission to 25 Oct, offline finale at DTU East Campus on 29 Oct 2026.",
+      "region": "India",
+      "date_status": "confirmed"
     },
     {
       "id": "xlri-kronos-2026-hr-case-competition",
@@ -99,7 +107,9 @@
       "source_url": "https://unstop.com/competitions/kronos-2026-hr-case-competition-xavier-school-of-management-xlri-1767435",
       "last_verified": "2026-10-10",
       "needs_review": false,
-      "review_notes": "Registration closes 19 Oct 2026, 8 PM IST. Quiz 19 Oct; slide submission 20-22 Oct. Kronos CHRO Conclave is on 24 Oct."
+      "review_notes": "Registration closes 19 Oct 2026, 8 PM IST. Quiz 19 Oct; slide submission 20-22 Oct. Kronos CHRO Conclave is on 24 Oct.",
+      "region": "India",
+      "date_status": "confirmed"
     },
     {
       "id": "xlri-tech-tack-pm-case-competition-2026",
@@ -119,7 +129,9 @@
       "source_url": "https://unstop.com/competitions/tech-tack-product-management-case-competition-2026-ensemble-valhalla-2026-xavier-school-of-management-xlri-1746033",
       "last_verified": "2026-10-10",
       "needs_review": false,
-      "review_notes": "Part of Ensemble Valhalla 2026. Quiz round 9 Nov; case submission 11-16 Nov. Page lists the deadline as 30 Nov, 01:02 AM IST."
+      "review_notes": "Part of Ensemble Valhalla 2026. Quiz round 9 Nov; case submission 11-16 Nov. Page lists the deadline as 30 Nov, 01:02 AM IST.",
+      "region": "India",
+      "date_status": "confirmed"
     },
     {
       "id": "xlri-strategikon-consulting-2026",
@@ -139,7 +151,9 @@
       "source_url": "https://unstop.com/competitions/strategikon-consulting-flagship-event-2026-ensemble-valhalla-2026-xavier-school-of-management-xlri-1745663",
       "last_verified": "2026-10-10",
       "needs_review": false,
-      "review_notes": "Part of Ensemble Valhalla 2026. Qualifying assessment on 9 Nov 2026."
+      "review_notes": "Part of Ensemble Valhalla 2026. Qualifying assessment on 9 Nov 2026.",
+      "region": "India",
+      "date_status": "confirmed"
     },
     {
       "id": "tiss-parivartan-26-case-competition",
@@ -159,7 +173,9 @@
       "source_url": "https://unstop.com/competitions/parivartan26-case-competition-tata-institute-of-social-sciences-tiss-mumbai-1764693",
       "last_verified": "2026-10-10",
       "needs_review": false,
-      "review_notes": "Theme: sustainability and Viksit Bharat. Quiz round 21 Oct 2026."
+      "review_notes": "Theme: sustainability and Viksit Bharat. Quiz round 21 Oct 2026.",
+      "region": "India",
+      "date_status": "confirmed"
     },
     {
       "id": "flame-smart-tank-5-national-case-competition",
@@ -179,7 +195,9 @@
       "source_url": "https://unstop.com/competitions/smart-tank-50-national-case-competition-flame-university-pune-1757615",
       "last_verified": "2026-10-10",
       "needs_review": false,
-      "review_notes": "Teams of exactly 2. Online quiz 18-19 Oct. Medals and giveaways from Mahindra Electric Automobile."
+      "review_notes": "Teams of exactly 2. Online quiz 18-19 Oct. Medals and giveaways from Mahindra Electric Automobile.",
+      "region": "India",
+      "date_status": "confirmed"
     },
     {
       "id": "st-stephens-business-tangent-2026",
@@ -199,7 +217,9 @@
       "source_url": "https://unstop.com/competitions/business-tangent-a-social-impact-case-competion-ssc-du-1765060",
       "last_verified": "2026-10-10",
       "needs_review": false,
-      "review_notes": "Offline event at St. Stephen's College, Delhi. Prelims quiz 22 Oct 2026. Prizes not listed on the page."
+      "review_notes": "Offline event at St. Stephen's College, Delhi. Prelims quiz 22 Oct 2026. Prizes not listed on the page.",
+      "region": "India",
+      "date_status": "confirmed"
     },
     {
       "id": "iit-jammu-investi-case-26",
@@ -219,7 +239,9 @@
       "source_url": "https://unstop.com/competitions/investi-case-26-iit-jammu-1767571",
       "last_verified": "2026-10-10",
       "needs_review": false,
-      "review_notes": "Investment research case; teams of exactly 5. Elimination round runs 9-23 Oct 2026."
+      "review_notes": "Investment research case; teams of exactly 5. Elimination round runs 9-23 Oct 2026.",
+      "region": "India",
+      "date_status": "confirmed"
     },
     {
       "id": "imt-nagpur-netritva-case-analysis-challenge",
@@ -239,7 +261,9 @@
       "source_url": "https://unstop.com/competitions/netrivita-case-analysis-challenge-institute-of-management-technology-imt-nagpur-1765117",
       "last_verified": "2026-10-10",
       "needs_review": false,
-      "review_notes": "Teams of exactly 3. Quiz round 15 Oct 2026."
+      "review_notes": "Teams of exactly 3. Quiz round 15 Oct 2026.",
+      "region": "India",
+      "date_status": "confirmed"
     },
     {
       "id": "iit-delhi-business-people-case-challenge-2026",
@@ -259,7 +283,9 @@
       "source_url": "https://unstop.com/competitions/business-people-case-challenge-2026-iit-delhi-1762682",
       "last_verified": "2026-10-10",
       "needs_review": false,
-      "review_notes": "Individual participation. Prizes not listed on the page."
+      "review_notes": "Individual participation. Prizes not listed on the page.",
+      "region": "India",
+      "date_status": "confirmed"
     },
     {
       "id": "igdtuw-kritical-hacks-2026",
@@ -279,7 +305,9 @@
       "source_url": "https://unstop.com/hackathons/kritical-hacks-2026-igdtuw-delhi-1760989",
       "last_verified": "2026-10-10",
       "needs_review": false,
-      "review_notes": "Registration closes today (10 Oct 2026, 11:59 PM IST); submissions through Unstop until 20 Oct. Venue offline, TBA. AI theme."
+      "review_notes": "Registration closes today (10 Oct 2026, 11:59 PM IST); submissions through Unstop until 20 Oct. Venue offline, TBA. AI theme.",
+      "region": "India",
+      "date_status": "confirmed"
     },
     {
       "id": "bvcoe-hack-at-bvp-8",
@@ -299,7 +327,9 @@
       "source_url": "https://unstop.com/hackathons/hack-at-bvp-80-bharati-vidyapeeths-college-of-engineering-1768545",
       "last_verified": "2026-10-10",
       "needs_review": false,
-      "review_notes": "Eligibility not listed on the page (shown as open to everyone in the Unstop listing). Abstract round closes 16 Oct, 7 PM IST."
+      "review_notes": "Eligibility not listed on the page (shown as open to everyone in the Unstop listing). Abstract round closes 16 Oct, 7 PM IST.",
+      "region": "India",
+      "date_status": "confirmed"
     },
     {
       "id": "cummins-redefine-2026",
@@ -319,7 +349,9 @@
       "source_url": "https://internshala.com/competitions/?p=11355",
       "last_verified": "2026-10-10",
       "needs_review": false,
-      "review_notes": "Page shows Closed, matching the 5 Oct deadline. Grand finale 17-18 Nov 2026 at Cummins India Office Campus, Pune. First/second-year MBA/PGDM students; teams of exactly 3 from the same campus."
+      "review_notes": "Page shows Closed, matching the 5 Oct deadline. Grand finale 17-18 Nov 2026 at Cummins India Office Campus, Pune. First/second-year MBA/PGDM students; teams of exactly 3 from the same campus.",
+      "region": "India",
+      "date_status": "confirmed"
     },
     {
       "id": "asian-paints-trailblazers-2026",
@@ -339,7 +371,9 @@
       "source_url": "https://internshala.com/asian-paints-trailblazers/",
       "last_verified": "2026-10-10",
       "needs_review": false,
-      "review_notes": "Individual registration for 1st/2nd-year MBA/PGDM students. Registration closed. Later rounds run to 20 Oct 2026; PPI round date to be announced. Domain not stated by organiser."
+      "review_notes": "Individual registration for 1st/2nd-year MBA/PGDM students. Registration closed. Later rounds run to 20 Oct 2026; PPI round date to be announced. Domain not stated by organiser.",
+      "region": "India",
+      "date_status": "confirmed"
     },
     {
       "id": "iit-bhubaneswar-tech-zephyr-case-study-2026",
@@ -359,7 +393,9 @@
       "source_url": "https://unstop.com/competitions/case-study-competition-tech-zephyr-40-indian-institute-of-technology-iit-bhubaneswar-1742778/amp",
       "last_verified": "2026-10-10",
       "needs_review": false,
-      "review_notes": "Page shows Registration Closed. Offline finals date not stated."
+      "review_notes": "Page shows Registration Closed. Offline finals date not stated.",
+      "region": "India",
+      "date_status": "confirmed"
     },
     {
       "id": "iit-delhi-startup-expo-case-competition-2026",
@@ -379,7 +415,9 @@
       "source_url": "https://unstop.com/competitions/startup-expo-case-competition-iit-delhi-1740065/amp",
       "last_verified": "2026-10-10",
       "needs_review": false,
-      "review_notes": "Organised by the Business & Consulting Club, IIT Delhi. Prize amounts not stated. Page gives two different date ranges for Round 2."
+      "review_notes": "Organised by the Business & Consulting Club, IIT Delhi. Prize amounts not stated. Page gives two different date ranges for Round 2.",
+      "region": "India",
+      "date_status": "confirmed"
     },
     {
       "id": "tally-codebrewers-2026",
@@ -399,7 +437,9 @@
       "source_url": "https://internshala.com/competitions/tally-codebrewers-2026/",
       "last_verified": "2026-10-10",
       "needs_review": false,
-      "review_notes": "Open only to engineering students from selected target campuses; individuals allowed. Finals 21-28 Jul 2026 at Tally, Bengaluru."
+      "review_notes": "Open only to engineering students from selected target campuses; individuals allowed. Finals 21-28 Jul 2026 at Tally, Bengaluru.",
+      "region": "India",
+      "date_status": "confirmed"
     },
     {
       "id": "myntra-weforshe-hackerramp-2026",
@@ -419,7 +459,9 @@
       "source_url": "https://internshala.com/competitions/myntra-weforshe-hackerramp-2026-5-25-lakh/",
       "last_verified": "2026-10-10",
       "needs_review": false,
-      "review_notes": "Women engineering students only (B.E./B.Tech pre-final or final year). Grand finale at Myntra HQ, Bengaluru; PPI round 13 Aug 2026."
+      "review_notes": "Women engineering students only (B.E./B.Tech pre-final or final year). Grand finale at Myntra HQ, Bengaluru; PPI round 13 Aug 2026.",
+      "region": "India",
+      "date_status": "confirmed"
     },
     {
       "id": "ey-cafta-case-championship-2026",
@@ -439,7 +481,9 @@
       "source_url": "https://internshala.com/competitions/ey-cafta-case-championship-2026/",
       "last_verified": "2026-10-10",
       "needs_review": false,
-      "review_notes": "Open to students graduating after 2025. Case submission 25 Apr 2026; results 10 May 2026. Page shows Closed."
+      "review_notes": "Open to students graduating after 2025. Case submission 25 Apr 2026; results 10 May 2026. Page shows Closed.",
+      "region": "India",
+      "date_status": "confirmed"
     },
     {
       "id": "hsbc-india-business-case-programme-2026-27",
@@ -459,7 +503,9 @@
       "source_url": "https://internshala.com/competitions/hsbc-india-business-case-programme-2026-27/",
       "last_verified": "2026-10-10",
       "needs_review": true,
-      "review_notes": "CHECK DEADLINE: page states 6 Oct 2026 but gives no Open/Closed label and shows an unexplained 30 Jun 2027 header date. If the deadline was extended this entry is actually open. Programme rounds run Oct 2026 to Feb 2027 (national round, Mumbai). Teams of exactly 4 from the same college."
+      "review_notes": "CHECK DEADLINE: page states 6 Oct 2026 but gives no Open/Closed label and shows an unexplained 30 Jun 2027 header date. If the deadline was extended this entry is actually open. Programme rounds run Oct 2026 to Feb 2027 (national round, Mumbai). Teams of exactly 4 from the same college.",
+      "region": "India",
+      "date_status": "confirmed"
     },
     {
       "id": "goldman-sachs-india-hackathon-2026",
@@ -479,7 +525,101 @@
       "source_url": "https://internshala.com/competitions/goldman-sachs-india-hackathon-2026/",
       "last_verified": "2026-10-10",
       "needs_review": true,
-      "review_notes": "CHECK LEVEL: page says engineering students graduating in 2027 or 2028 but does not say UG or PG. Individual challenge. Quant track 23 May, CS track 24 May 2026."
+      "review_notes": "CHECK LEVEL: page says engineering students graduating in 2027 or 2028 but does not say UG or PG. Individual challenge. Quant track 23 May, CS track 24 May 2026.",
+      "region": "India",
+      "date_status": "confirmed"
+    },
+    {
+      "ppo_ppi": "Not specified",
+      "cash_prize": "Not specified",
+      "team_size_min": 3,
+      "team_size_max": 4,
+      "registration_open": null,
+      "deadline": null,
+      "event_date": null,
+      "last_verified": "2026-10-11",
+      "date_status": "expected",
+      "region": "International",
+      "id": "cbs-global-case-competition-2026",
+      "title": "CBS GLOBAL Case Competition 2026",
+      "host_name": "Copenhagen Business School (CBS Case Competition)",
+      "host_type": "college",
+      "domain": "general",
+      "level": "UG+PG",
+      "expected_window": "Usually Oct-Nov (2024 edition: sign-up deadline 11 Nov, final 22 Nov). 2026 dates not yet confirmed.",
+      "apply_url": "https://signup.casecompetition.com/",
+      "source_url": "https://casecompetition.com/global",
+      "needs_review": false,
+      "review_notes": "Open to UG and graduate students worldwide, no fee, solo sign-ups allowed. Top 3 teams flown to Copenhagen for the final. The public timeline page still shows 2024 dates, so check the official site for 2026 dates."
+    },
+    {
+      "ppo_ppi": "Fast-tracked recruitment for 180DC Global Leadership Team (T&Cs apply); not a company PPO",
+      "cash_prize": "Cash prizes (pool to be announced)",
+      "team_size_min": 3,
+      "team_size_max": 4,
+      "registration_open": null,
+      "deadline": null,
+      "event_date": null,
+      "last_verified": "2026-10-11",
+      "date_status": "expected",
+      "region": "International",
+      "id": "180dc-global-case-competition-2026",
+      "title": "180DC Global Case Competition 2026",
+      "host_name": "180 Degrees Consulting",
+      "host_type": "company",
+      "domain": "consulting",
+      "level": "UG+PG",
+      "expected_window": "Applications 'open soon'; programme runs until December 2026.",
+      "apply_url": "https://www.180dc.org/global-case-competition",
+      "source_url": "https://www.180dc.org/global-case-competition",
+      "needs_review": false,
+      "review_notes": "Open to anyone enrolled full-time in a degree and under 28. Prizes listed as indicative. 180DC is a student-run consultancy, so host_type is approximate."
+    },
+    {
+      "ppo_ppi": "Not specified",
+      "cash_prize": "Not specified",
+      "team_size_min": null,
+      "team_size_max": null,
+      "registration_open": null,
+      "deadline": null,
+      "event_date": null,
+      "last_verified": "2026-10-11",
+      "date_status": "expected",
+      "region": "India",
+      "id": "godrej-properties-summersault-challenge-2026",
+      "title": "Godrej Properties Summersault Challenge 2026 (expected)",
+      "host_name": "Godrej Properties Ltd",
+      "host_type": "company",
+      "domain": "operations",
+      "level": "UG+PG",
+      "expected_window": "Usually Nov (2025 edition registration ran 7-19 Nov 2025). 2026 edition not announced yet.",
+      "apply_url": "https://unstop.com/competitions/crp-godrej-properties-limited-summersault-challenge-2025-operations-track-godrej-properties-ltd-1588543",
+      "source_url": "https://unstop.com/competitions/crp-godrej-properties-limited-summersault-challenge-2025-operations-track-godrej-properties-ltd-1588543",
+      "needs_review": false,
+      "review_notes": "Based on the 2025 Unstop page (UG, PG, engineering students, individual participation, technical quiz round). Link is the 2025 page until the 2026 page appears."
+    },
+    {
+      "ppo_ppi": "PPIs for Summer Internship (up to 15 students, per 2025 edition)",
+      "cash_prize": "2025 edition: prizes worth INR 5,00,000 and INR 1 lakh scholarships",
+      "team_size_min": 1,
+      "team_size_max": 1,
+      "registration_open": null,
+      "deadline": null,
+      "event_date": null,
+      "last_verified": "2026-10-11",
+      "date_status": "expected",
+      "region": "India",
+      "id": "nestle-leaders-league-genesis-2026",
+      "title": "Nestle Leaders League - Genesis (2026 edition, expected)",
+      "host_name": "Nestle",
+      "host_type": "company",
+      "domain": "general",
+      "level": "PG",
+      "expected_window": "2025 edition registration ran 6-19 May 2025 (MBA batch of 2026). 2026 edition status unknown.",
+      "apply_url": "https://unstop.com/competitions/crp-nestle-leaders-league-genesis-2025-nestle-1474036",
+      "source_url": "https://unstop.com/competitions/crp-nestle-leaders-league-genesis-2025-nestle-1474036",
+      "needs_review": true,
+      "review_notes": "Hidden: the 2025 edition ran in May, so the 2026 edition may already have happened or not be run. Confirm before publishing."
     }
   ]
 }

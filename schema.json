@@ -2,25 +2,168 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Case Competition",
   "type": "object",
-  "required": ["id", "title", "host_name", "host_type", "domain", "level", "apply_url", "source_url", "deadline", "last_verified", "needs_review"],
+  "required": [
+    "id",
+    "title",
+    "host_name",
+    "host_type",
+    "domain",
+    "level",
+    "apply_url",
+    "source_url",
+    "last_verified",
+    "needs_review"
+  ],
   "properties": {
-    "id": { "type": "string", "description": "Stable slug, e.g. 'hostname-title-year'. Never changes once created." },
-    "title": { "type": "string" },
-    "host_name": { "type": "string", "description": "College or company hosting" },
-    "host_type": { "enum": ["college", "company"] },
-    "domain": { "enum": ["consulting", "finance", "engineering", "hackathon", "marketing", "product", "operations", "hr", "analytics", "general"] },
-    "level": { "enum": ["UG", "PG", "UG+PG"] },
-    "ppo_ppi": { "type": "string", "description": "PPO/PPI details, 'None' if explicitly none, 'Not specified' if unknown" },
-    "cash_prize": { "type": "string", "description": "e.g. 'INR 1,00,000' or 'None' or 'Not specified'" },
-    "team_size_min": { "type": ["integer", "null"] },
-    "team_size_max": { "type": ["integer", "null"] },
-    "registration_open": { "type": ["string", "null"], "format": "date", "description": "YYYY-MM-DD. Null if unknown (then treated as already open until deadline)." },
-    "deadline": { "type": "string", "format": "date", "description": "Registration/submission deadline, YYYY-MM-DD" },
-    "event_date": { "type": ["string", "null"], "format": "date" },
-    "apply_url": { "type": "string", "format": "uri", "description": "Direct link to application portal (Unstop, Devfolio, company site...)" },
-    "source_url": { "type": "string", "format": "uri", "description": "Page where the info was verified" },
-    "last_verified": { "type": "string", "format": "date" },
-    "needs_review": { "type": "boolean", "description": "true = hidden from public site until a human approves" },
-    "review_notes": { "type": "string", "description": "What the agent could not verify" }
-  }
+    "id": {
+      "type": "string",
+      "description": "Stable slug, e.g. 'hostname-title-year'. Never changes once created."
+    },
+    "title": {
+      "type": "string"
+    },
+    "host_name": {
+      "type": "string",
+      "description": "College or company hosting"
+    },
+    "host_type": {
+      "enum": [
+        "college",
+        "company"
+      ]
+    },
+    "domain": {
+      "enum": [
+        "consulting",
+        "finance",
+        "engineering",
+        "hackathon",
+        "marketing",
+        "product",
+        "operations",
+        "hr",
+        "analytics",
+        "general"
+      ]
+    },
+    "level": {
+      "enum": [
+        "UG",
+        "PG",
+        "UG+PG"
+      ]
+    },
+    "ppo_ppi": {
+      "type": "string",
+      "description": "PPO/PPI details, 'None' if explicitly none, 'Not specified' if unknown"
+    },
+    "cash_prize": {
+      "type": "string",
+      "description": "e.g. 'INR 1,00,000' or 'None' or 'Not specified'"
+    },
+    "team_size_min": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "team_size_max": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "registration_open": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date",
+      "description": "YYYY-MM-DD. Null if unknown (then treated as already open until deadline)."
+    },
+    "deadline": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date",
+      "description": "Registration deadline, YYYY-MM-DD. Required when date_status is 'confirmed' (or absent); null when date_status is 'expected'."
+    },
+    "event_date": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "apply_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Direct link to application portal (Unstop, Devfolio, company site...)"
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Page where the info was verified"
+    },
+    "last_verified": {
+      "type": "string",
+      "format": "date"
+    },
+    "needs_review": {
+      "type": "boolean",
+      "description": "true = hidden from public site until a human approves"
+    },
+    "review_notes": {
+      "type": "string",
+      "description": "What the agent could not verify"
+    },
+    "region": {
+      "enum": [
+        "India",
+        "International"
+      ],
+      "description": "Where the competition is based/open. Defaults to India if absent."
+    },
+    "date_status": {
+      "enum": [
+        "confirmed",
+        "expected"
+      ],
+      "description": "'confirmed' = dates announced by organiser. 'expected' = recurring annual competition whose 2026-27 dates are not yet announced; shown as Upcoming (dates expected)."
+    },
+    "expected_window": {
+      "type": "string",
+      "description": "Required when date_status is 'expected'. Short text such as 'Usually Nov-Dec (based on 2025 edition)'. Must cite evidence in review_notes."
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "date_status": {
+            "const": "expected"
+          }
+        },
+        "required": [
+          "date_status"
+        ]
+      },
+      "then": {
+        "required": [
+          "expected_window"
+        ]
+      },
+      "else": {
+        "required": [
+          "deadline"
+        ],
+        "properties": {
+          "deadline": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  ]
 }
