@@ -19,7 +19,7 @@ You maintain `data/competitions.json` in the GitHub repo `Yadnika079/case-comp-t
    - On each detail page, open the **Prizes** and **Dates & Deadlines** tabs (click the `[role=tab]` elements) and read the text with `get_page_text` or `innerText`. The registration deadline is the entry labelled "Registration Deadline" under "Important dates & deadlines". Do not use the quiz or submission dates as the deadline.
    - Skip competitions for school students only, and skip anything with no registration deadline (list those in the run log instead).
 
-3. **Look beyond Unstop.** Do not rely on Unstop alone. Also check, via WebSearch and public pages: Internshala competitions, Devfolio, Dare2Compete/other portals, company career and campus pages, IIM/IIT/other college fest pages, and these international sources: casecompetition.com (CBS), 180dc.org, Bentley/Boston University/John Molson/Rotman/Wharton case competitions, CFA Research Challenge, Global Microfinance and similar. For international ones set `region: "International"`; skip high-school-only and invitation/member-institution-only events.
+3. **Look beyond Unstop.** Always check these sources every run (public pages only): WeSolv (wesolv.com), The Case Centre (thecasecentre.org), MBA-Exchange (mba-exchange.com), and Careernomics. Treat them as leads: confirm the deadline and apply link on the organiser's official or portal page before setting `needs_review: false`. Do not rely on Unstop alone. Also check, via WebSearch and public pages: Internshala competitions, Devfolio, Dare2Compete/other portals, company career and campus pages, IIM/IIT/other college fest pages, and these international sources: casecompetition.com (CBS), 180dc.org, Bentley/Boston University/John Molson/Rotman/Wharton case competitions, CFA Research Challenge, Global Microfinance and similar. For international ones set `region: "International"`; skip high-school-only and invitation/member-institution-only events.
    - **Annual company competitions not yet held this year.** Check companies that run a yearly case competition or challenge (for example Nestle Genesis, Godrej Summersault, ITC Interrobang, KPMG Ideation Challenge, Aditya Birla Stratos, Walmart Sparkathon, Flipkart GRiD, HUL LIME, Tata Imagination Challenge, P&G, L'Oreal Brandstorm, Unilever, Deloitte, EY, PwC, Amazon). If the 2026 edition has not been announced and a past edition's official page exists, add one entry with `date_status: "expected"`, `deadline: null` and an `expected_window` citing the past edition's dates (for example "Usually Nov, 2025 edition ran 7-19 Nov"). Rules: only if the past edition is evidenced on an official or portal page; never invent dates; skip if the 2026 edition already ran (then it is a normal closed entry if you can see it). When the real dates appear, update the same entry (same id): set `date_status: "confirmed"`, fill `deadline`, remove the expected wording from the title. If the expected window passes with no announcement for 60 days, set `needs_review: true`.
    - **Cross-check with web search.** Use WebSearch for companies and colleges that run case competitions (for example PPI-linked company programmes on Internshala, company career pages, IIM and IIT fest pages). Internshala competition pages are static and can be read with WebFetch, but their apply button is a sign-in link, so use the Internshala page itself as `apply_url`. Prefer the official or portal page over blogs or aggregators such as startupgrantsindia. Record the page you verified from in `source_url`, and the direct registration link in `apply_url`.
 
@@ -60,6 +60,11 @@ You maintain `data/competitions.json` in the GitHub repo `Yadnika079/case-comp-t
    Keep it short.
 
 9. **Commit and push to the default branch** with the message `Nightly update YYYY-MM-DD: +N new, M updated`. Push only `data/competitions.json` and the log file.
+
+## Permanent exclusions (the owner removed these; never add them again)
+
+- HSBC India Business Case Programme 2026-27
+- Goldman Sachs India Hackathon 2026
 
 ## Limits
 
