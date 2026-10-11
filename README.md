@@ -26,7 +26,8 @@ nightly agent (10 PM IST)  ->  commits data/competitions.json to GitHub
 | `data/programmes.json` | All programmes for MBA students and aspirants (Programmes tab) |
 | `schema.json` | Field definitions and allowed values for competitions |
 | `programmes.schema.json` | Field definitions and allowed values for programmes |
-| `agent/nightly-prompt.md` | The prompt the scheduled agent runs |
+| `agent/nightly-prompt.md` | The prompt the nightly agent runs (competitions, every night 10 PM IST) |
+| `agent/weekly-programmes-prompt.md` | The prompt the weekly agent runs (programmes, every Monday 10:15 PM IST) |
 | `logs/` | One short log per nightly run (created by the agent) |
 
 ## Run locally

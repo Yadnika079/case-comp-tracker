@@ -55,41 +55,22 @@ You maintain `data/competitions.json` in the GitHub repo `Yadnika079/case-comp-t
    - If validation fails and you cannot fix it, do not commit. Write the failure into the run log instead.
 
 8. **Write the run log.** Create `logs/YYYY-MM-DD.md` (today's date, IST) with:
-   - number of new entries added (how many live, how many `needs_review`), listed separately for competitions and for programmes
+   - number of new entries added (how many live, how many `needs_review`)
    - number of existing entries updated, with a one-line reason each
    - sources that were unreachable or blocked
    - anything a human should check
    Keep it short.
 
-9. **Commit and push to the default branch** with the message `Nightly update YYYY-MM-DD: +N new, M updated`. Push only `data/competitions.json`, `data/programmes.json` and the log file.
-
-## Part 2: Programmes (second data file)
-
-The site also has a **Programmes** tab, powered by `data/programmes.json` and validated by `programmes.schema.json` (do not change that schema file). Programmes are NOT case competitions. They are programmes that help MBA students or MBA aspirants build skills or get exposure: pre-MBA / early-access programmes (for example BCG Unlock, McKinsey Early Access, ExperienceBain), webinars and insight events, free learning and certifications, virtual job simulations (Forage), mentoring and leadership programmes. Do not put case competitions or hackathons here, and do not put plain job or internship postings here (an MBA internship is allowed only if it is clearly a development programme with dates).
-
-Every run, after the competitions work:
-
-1. Re-open every existing programme whose status is not closed and re-check on the organiser's page: deadline, cost, eligibility, format. Update changed fields and set `last_verified` to today (IST). Flip `expected` entries to `confirmed` (fill `deadline`) when the organiser publishes dates; the id never changes.
-2. Look for new programmes: consulting firms (McKinsey, Bain, BCG, Oliver Wyman, Kearney, L.E.K., Deloitte, EY, PwC, KPMG, Accenture, ZS), banks and finance firms (HSBC, Goldman Sachs, J.P. Morgan, Citi, Morgan Stanley, Standard Chartered, Barclays), FMCG/marketing and tech companies (P&G, Unilever, Google, Microsoft, Amazon, Flipkart, HubSpot), plus Forage (theforage.com/simulations, read in the built-in browser; the listing is JavaScript-rendered), Bain Breaks it Down (bain.com/careers/recruiting/bbid/), MBA-Exchange, Management Consulted's pre-MBA list (leads only) and company careers pages. Prefer programmes open to students in India; also keep international ones, but always state in `eligibility` when India or Indian schools are not eligible.
-3. Rules for programme fields:
-   - `cost`: `free` only if the organiser's page says free; `paid` only if it states a fee (put the amount in `fee`); otherwise `not_specified`. Never infer cost from the brand.
-   - `audience`: `mba` only if the page limits it to MBA students or admits; otherwise `open`.
-   - `region`: `India` (India-based), `International` (outside India, with eligibility limits), `Global` (online, no country limit stated).
-   - `date_status`: `confirmed` needs a `deadline`; `expected` (past edition or an organiser note such as "check back in Spring 2027") needs `expected_window` and the evidence in `review_notes`; `rolling` for self-paced or always-open programmes (`deadline` null).
-   - Set `needs_review: true` when the organiser's own page was not read, India eligibility or dates are unclear, or sources conflict. Put what is unclear in `review_notes`. Aggregators are leads only.
-   - Same read-only rules as before: never sign in, register, apply or submit forms; never use tracking links as `apply_url`.
-4. Never create duplicates (match by `apply_url` or host plus title plus year). Do not delete closed programmes. Add at most 20 new programmes per run.
-5. Validate `data/programmes.json` against `programmes.schema.json` and set its `updated_at` to today (IST) before committing.
+9. **Commit and push to the default branch** with the message `Nightly update YYYY-MM-DD: +N new, M updated`. Push only `data/competitions.json` and the log file. (Programmes are handled by a separate weekly run, see `agent/weekly-programmes-prompt.md`; never touch `data/programmes.json`.)
 
 ## Permanent exclusions (the owner removed these; never add them again)
 
 - HSBC India Business Case Programme 2026-27
 - Goldman Sachs India Hackathon 2026
 - All hackathons (permanently out of scope)
-- The HSBC India Business Case Programme stays excluded from both tabs
 
 ## Limits
 
-- Add at most 40 new competition entries and 20 new programme entries per run. Quality over quantity.
-- Do not modify any file other than `data/competitions.json`, `data/programmes.json` and `logs/`.
+- Add at most 40 new entries per run. Quality over quantity.
+- Do not modify any file other than `data/competitions.json` and `logs/`.
 - If nothing changed, still write the run log (with "no changes") and skip the data commit.
