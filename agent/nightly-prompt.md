@@ -12,14 +12,14 @@ You maintain `data/competitions.json` in the GitHub repo `Yadnika079/case-comp-t
 
 1. **Attach and read the repo.** Clone `Yadnika079/case-comp-tracker`. Read `schema.json` (the required fields and allowed values) and `data/competitions.json` (the current data). Do not change `schema.json`.
 
-2. **Search the web** for case competitions, business challenges, hackathons and similar contests with open or upcoming or open registration. Cover each domain: consulting, finance, engineering, hackathon, marketing, product, operations, hr, analytics, general. Use varied queries, for example:
-   - "case competition 2026 registration open"
-   - "[domain] case study competition for students India"
-   - "[company/college] case competition 2026"
-   - "business school case competition PPI PPO"
-   Look at listing pages (Unstop, Devfolio, company career pages, college fest pages, official competition sites, company pages that host case competitions every year) through search results and public pages.
+2. **Read Unstop through the browser (primary source).** Unstop pages are JavaScript-rendered, so a plain web fetch returns only the site header. Use the built-in browser in the Claude desktop app (tools named `Claude_Browser`), which renders them properly. If you have no browser tools, say so in the run log and fall back to step 3 only.
+   - Ask for access to `https://unstop.com` if the browser requests it.
+   - Open `https://unstop.com/competitions?oppstatus=open&searchTerm=<term>` for each term: `case competition`, `case study`, `marketing case`, `finance case`, `consulting`, `strategy`, `product management`, `HR case`, `analytics case`, `equity research`. Also open `https://unstop.com/hackathons?oppstatus=open`. Check pages 1-3 of the main `case competition` search.
+   - Collect detail-page links with JavaScript: all `<a>` elements whose href ends in a 6-8 digit id.
+   - On each detail page, open the **Prizes** and **Dates & Deadlines** tabs (click the `[role=tab]` elements) and read the text with `get_page_text` or `innerText`. The registration deadline is the entry labelled "Registration Deadline" under "Important dates & deadlines". Do not use the quiz or submission dates as the deadline.
+   - Skip competitions for school students only, and skip anything with no registration deadline (list those in the run log instead).
 
-3. **Open each candidate's page** and extract the schema fields. Prefer the official or portal page over blog posts or aggregators. Record the page you verified from in `source_url`, and the direct registration link in `apply_url`.
+3. **Cross-check with web search.** Use WebSearch for companies and colleges that run case competitions (for example PPI-linked company programmes on Internshala, company career pages, IIM and IIT fest pages). Internshala competition pages are static and can be read with WebFetch, but their apply button is a sign-in link, so use the Internshala page itself as `apply_url`. Prefer the official or portal page over blogs or aggregators such as startupgrantsindia. Record the page you verified from in `source_url`, and the direct registration link in `apply_url`.
 
 4. **Merge into the existing data.**
    - Match against existing entries by `apply_url`, or by host plus title plus year. Never create duplicates.
@@ -27,6 +27,7 @@ You maintain `data/competitions.json` in the GitHub repo `Yadnika079/case-comp-t
    - Never change an existing `id`.
    - For new entries, create `id` as a lowercase slug: `host-title-year`.
    - Do not delete closed entries. The website labels them as closed from the dates.
+   - Re-open every existing entry whose deadline has not yet passed and check the deadline, prize and team size still match (deadlines are often extended). Update if changed.
    - If an existing entry's page is gone or contradicts the data, set `needs_review` to true and explain in `review_notes`.
 
 5. **Be honest about gaps.**
@@ -34,11 +35,12 @@ You maintain `data/competitions.json` in the GitHub repo `Yadnika079/case-comp-t
    - `deadline` is required. If you cannot find one, do not add the entry.
    - Set `needs_review: true` for a new entry when any of these is true: the source is not the official page or a portal listing, the deadline is ambiguous, host type or level is unclear, or the page conflicts with another source. Put what is uncertain in `review_notes`.
    - Set `needs_review: false` only when the deadline, host, level, and apply link were all confirmed on an official or portal page.
-   - Level: use `UG`, `PG`, or `UG+PG` strictly as stated by the organiser. If the page does not say, use `needs_review: true`.
+   - Level: use `UG`, `PG`, or `UG+PG` strictly as stated by the organiser (on Unstop, the Eligibility list shows Undergraduate and/or Postgraduate; if both appear use `UG+PG`; MBA-only programmes are `PG`). If the page does not say, use `needs_review: true`.
+   - `apply_url` is the Unstop (or official) competition page, not a sign-in link.
    - PPO/PPI: only record it if the organiser's page explicitly mentions it. Do not infer it from the host being a big company.
 
 6. **Respect the sources.**
-   - Only read publicly accessible pages. Do not log in, create accounts, submit forms, or register for anything.
+   - Only read publicly accessible pages. Do not log in, create accounts, submit forms, or register for anything, including in the browser.
    - Do not try to bypass blocks, CAPTCHAs, or paywalls. If a site refuses access, skip it and note it in the run log.
    - Do not copy long text from pages. Write short factual field values in your own words.
 
