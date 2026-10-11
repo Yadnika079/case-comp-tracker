@@ -171,14 +171,22 @@ function render() {
 // Keep filters in the URL so views can be shared and survive refresh.
 const PARAMS = { q: "search", status: "status", level: "level", domain: "domain", host: "host", region: "region", sort: "sort" };
 
-function syncUrl() {
-  const p = new URLSearchParams();
-  for (const [key, id] of Object.entries(PARAMS)) {
-    const v = els[id].value;
-    if (v && !(key === "sort" && v === "deadline")) p.set(key, v);
-  }
+// Rewrite only this tab's own keys in the URL, leaving the other tab's keys alone.
+function updateQuery(ownKeys, entries) {
+  const p = new URLSearchParams(location.search);
+  ownKeys.forEach((k) => p.delete(k));
+  entries.forEach(([k, v]) => p.set(k, v));
   const qs = p.toString();
   history.replaceState(null, "", qs ? `?${qs}` : location.pathname);
+}
+
+function syncUrl() {
+  const entries = [];
+  for (const [key, id] of Object.entries(PARAMS)) {
+    const v = els[id].value;
+    if (v && !(key === "sort" && v === "deadline")) entries.push([key, v]);
+  }
+  updateQuery(Object.keys(PARAMS), entries);
 }
 
 function loadFromUrl() {
@@ -233,5 +241,23 @@ async function init() {
 
   render();
 }
+
+// Tabs: Case Competitions | Programmes. The chosen tab lives in the URL (?tab=programmes).
+const TABS = ["competitions", "programmes"];
+
+function showTab(name, updateUrl = true) {
+  if (!TABS.includes(name)) name = "competitions";
+  TABS.forEach((t) => {
+    const active = t === name;
+    document.getElementById(`tab-${t}`).hidden = !active;
+    const btn = document.getElementById(`tab-btn-${t}`);
+    btn.classList.toggle("is-active", active);
+    btn.setAttribute("aria-selected", String(active));
+  });
+  if (updateUrl) updateQuery(["tab"], name === "competitions" ? [] : [["tab", name]]);
+}
+
+document.querySelectorAll(".tab").forEach((btn) => btn.addEventListener("click", () => showTab(btn.dataset.tab)));
+showTab(new URLSearchParams(location.search).get("tab") || "competitions", false);
 
 init();

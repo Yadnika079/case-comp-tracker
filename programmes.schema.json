@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Programme",
+  "description": "A company or institution programme that helps MBA students or MBA aspirants build skills or get exposure (pre-MBA programmes, webinars, free learning, virtual job simulations, mentoring). Not a case competition: those live in data/competitions.json.",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "host_name",
+    "host_type",
+    "domain",
+    "programme_type",
+    "audience",
+    "cost",
+    "date_status",
+    "apply_url",
+    "source_url",
+    "last_verified",
+    "needs_review",
+    "region"
+  ],
+  "properties": {
+    "id": { "type": "string", "description": "Stable slug, e.g. 'host-title-year'. Never changes once created." },
+    "title": { "type": "string" },
+    "host_name": { "type": "string" },
+    "host_type": { "enum": ["company", "college", "organisation"] },
+    "domain": {
+      "enum": ["consulting", "finance", "engineering", "marketing", "product", "operations", "hr", "analytics", "general"]
+    },
+    "programme_type": {
+      "enum": ["pre_mba", "insight_event", "virtual_experience", "learning", "mentorship", "leadership", "internship"],
+      "description": "pre_mba = early-access programme for admitted MBA students; insight_event = webinars/workshops; virtual_experience = self-paced job simulation; learning = courses/certifications; mentorship; leadership programme; internship."
+    },
+    "audience": { "enum": ["mba", "open"], "description": "'mba' = only MBA students/admits; 'open' = anyone, including MBA aspirants." },
+    "eligibility": { "type": "string", "description": "Plain-words who can apply, as stated by the organiser. Say if India/Indian schools are not eligible." },
+    "cost": { "enum": ["free", "paid", "not_specified"], "description": "'not_specified' when the organiser's page does not say. Never guess." },
+    "fee": { "type": "string", "description": "e.g. 'Free', 'INR 5,000', 'Not specified'" },
+    "format": { "enum": ["online", "in_person", "hybrid", "not_specified"] },
+    "duration": { "type": "string" },
+    "registration_open": { "type": ["string", "null"], "format": "date" },
+    "deadline": { "type": ["string", "null"], "format": "date", "description": "Application deadline, YYYY-MM-DD. Required when date_status is 'confirmed'; null for 'expected' and 'rolling'." },
+    "start_date": { "type": ["string", "null"], "format": "date" },
+    "date_status": {
+      "enum": ["confirmed", "expected", "rolling"],
+      "description": "'confirmed' = dates announced. 'expected' = recurring programme whose next dates are not announced (shown as Upcoming). 'rolling' = always open or self-paced (shown as Open)."
+    },
+    "expected_window": { "type": "string", "description": "Required when date_status is 'expected'. Cite the past edition or the organiser's note in review_notes." },
+    "apply_url": { "type": "string", "format": "uri" },
+    "source_url": { "type": "string", "format": "uri" },
+    "last_verified": { "type": "string", "format": "date" },
+    "needs_review": { "type": "boolean", "description": "true = hidden from the public site until a human approves" },
+    "review_notes": { "type": "string" },
+    "region": {
+      "enum": ["India", "International", "Global"],
+      "description": "India = India-based. International = outside India (check eligibility). Global = online, no country limit stated."
+    }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "date_status": { "const": "expected" } }, "required": ["date_status"] },
+      "then": { "required": ["expected_window"] }
+    },
+    {
+      "if": { "properties": { "date_status": { "const": "confirmed" } }, "required": ["date_status"] },
+      "then": { "required": ["deadline"], "properties": { "deadline": { "type": "string" } } }
+    }
+  ]
+}

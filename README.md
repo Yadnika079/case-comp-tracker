@@ -21,8 +21,11 @@ nightly agent (10 PM IST)  ->  commits data/competitions.json to GitHub
 | File | Purpose |
 |---|---|
 | `index.html`, `style.css`, `app.js` | The website |
-| `data/competitions.json` | All competitions (the only file the agent edits, besides logs) |
-| `schema.json` | Field definitions and allowed values |
+| `programmes.js` | Code for the Programmes tab |
+| `data/competitions.json` | All case competitions (the agent edits this and `programmes.json`, plus logs) |
+| `data/programmes.json` | All programmes for MBA students and aspirants (Programmes tab) |
+| `schema.json` | Field definitions and allowed values for competitions |
+| `programmes.schema.json` | Field definitions and allowed values for programmes |
 | `agent/nightly-prompt.md` | The prompt the scheduled agent runs |
 | `logs/` | One short log per nightly run (created by the agent) |
 
