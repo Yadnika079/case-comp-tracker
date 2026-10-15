@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14",
+  "updated_at": "2026-10-15",
   "competitions": [
     {
       "id": "tvs-ride-2026-case-competition-track-a",
@@ -992,6 +992,28 @@
       "last_verified": "2026-10-14",
       "needs_review": true,
       "review_notes": "Listed on Unstop as a general competition, not a case competition; equity research format. Check it belongs on the site. No prizes listed.",
+      "region": "India",
+      "date_status": "confirmed"
+    },
+    {
+      "id": "unstop-gostops-case-study-competition-2026",
+      "title": "goSTOPS Case Study Competition",
+      "host_name": "goSTOPS",
+      "host_type": "company",
+      "domain": "general",
+      "level": "UG+PG",
+      "ppo_ppi": "Not specified",
+      "cash_prize": "Not specified",
+      "team_size_min": 1,
+      "team_size_max": 3,
+      "registration_open": null,
+      "deadline": "2026-10-31",
+      "event_date": null,
+      "apply_url": "https://unstop.com/competitions/gostops-case-study-competition-gostops-1757375",
+      "source_url": "https://unstop.com/competitions/gostops-case-study-competition-gostops-1757375",
+      "last_verified": "2026-10-15",
+      "needs_review": true,
+      "review_notes": "Registration deadline 31 Oct 2026 per Unstop; online submission round 16-30 Oct. Eligibility shows only 'Everyone can apply', so level is a guess (UG+PG) and not confirmed; prize not read. Check before publishing.",
       "region": "India",
       "date_status": "confirmed"
     }
