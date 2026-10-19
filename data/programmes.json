@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12",
+  "updated_at": "2026-10-19",
   "programmes": [
     {
       "id": "bcg-oneday-virtual-experience",
@@ -20,7 +20,7 @@
       "date_status": "rolling",
       "apply_url": "https://careers.bcg.com/global/en/virtual-experience",
       "source_url": "https://careers.bcg.com/global/en/virtual-experience",
-      "last_verified": "2026-10-12",
+      "last_verified": "2026-10-19",
       "needs_review": false,
       "review_notes": "BCG's page calls the job simulations free and virtual. Modules are enrolled through Forage.",
       "region": "Global"
@@ -93,7 +93,7 @@
       "date_status": "confirmed",
       "apply_url": "https://www.mckinsey.com/careers/students/mckinsey-early-access/overview",
       "source_url": "https://www.mckinsey.com/careers/students/mckinsey-early-access/overview",
-      "last_verified": "2026-10-12",
+      "last_verified": "2026-10-19",
       "needs_review": false,
       "review_notes": "Deadline was 11 May 2026, extended to 15 May (as stated on McKinsey's page). Next edition dates are not announced.",
       "region": "International"
@@ -117,7 +117,7 @@
       "date_status": "confirmed",
       "apply_url": "https://careers.bcg.com/global/en/on-campus/programs/unlock",
       "source_url": "https://careers.bcg.com/global/en/on-campus/programs/unlock",
-      "last_verified": "2026-10-12",
+      "last_verified": "2026-10-19",
       "needs_review": false,
       "review_notes": "Register-by date was 18 May 2026; BCG's page says later registrations were considered on a rolling basis. Registration needs a resume. Next edition dates are not announced.",
       "region": "International"
@@ -141,7 +141,7 @@
       "date_status": "rolling",
       "apply_url": "https://www.theforage.com/simulations/oliver-wyman/integrated-consulting-group-tvnj",
       "source_url": "https://www.theforage.com/simulations/oliver-wyman/integrated-consulting-group-tvnj",
-      "last_verified": "2026-10-12",
+      "last_verified": "2026-10-19",
       "needs_review": false,
       "review_notes": "Forage page shows a free simulation on insurance, actuarial and asset management consulting work. Forage's note says completing it is not work experience.",
       "region": "Global"
@@ -165,7 +165,7 @@
       "date_status": "rolling",
       "apply_url": "https://www.theforage.com/simulations/goldman-sachs/risk-ljdz",
       "source_url": "https://www.theforage.com/simulations/goldman-sachs/risk-ljdz",
-      "last_verified": "2026-10-12",
+      "last_verified": "2026-10-19",
       "needs_review": false,
       "review_notes": "Forage page offers a free simulation; duration taken from Forage's listing.",
       "region": "Global"
@@ -189,7 +189,7 @@
       "date_status": "rolling",
       "apply_url": "https://www.theforage.com/simulations/goldman-sachs/operations-9vyc",
       "source_url": "https://www.theforage.com/simulations/goldman-sachs/operations-9vyc",
-      "last_verified": "2026-10-12",
+      "last_verified": "2026-10-19",
       "needs_review": false,
       "review_notes": "Forage page offers a free simulation; duration taken from Forage's listing.",
       "region": "Global"
@@ -213,7 +213,7 @@
       "date_status": "rolling",
       "apply_url": "https://www.theforage.com/simulations/citi/finance-qt4o",
       "source_url": "https://www.theforage.com/simulations/citi/finance-qt4o",
-      "last_verified": "2026-10-12",
+      "last_verified": "2026-10-19",
       "needs_review": false,
       "review_notes": "Forage page offers a free simulation; duration taken from Forage's listing.",
       "region": "Global"
@@ -237,7 +237,7 @@
       "date_status": "rolling",
       "apply_url": "https://www.theforage.com/simulations/standardchartered/banking-coverage-kr4i",
       "source_url": "https://www.theforage.com/simulations/standardchartered/banking-coverage-kr4i",
-      "last_verified": "2026-10-12",
+      "last_verified": "2026-10-19",
       "needs_review": false,
       "review_notes": "Forage page offers a free simulation; duration taken from Forage's listing.",
       "region": "Global"
@@ -261,7 +261,7 @@
       "date_status": "rolling",
       "apply_url": "https://www.theforage.com/simulations/bank-of-america/investment-banking-bwp7",
       "source_url": "https://www.theforage.com/simulations/bank-of-america/investment-banking-bwp7",
-      "last_verified": "2026-10-12",
+      "last_verified": "2026-10-19",
       "needs_review": false,
       "review_notes": "Forage page offers a free simulation; duration taken from Forage's listing.",
       "region": "Global"
@@ -360,7 +360,7 @@
       "source_url": "https://managementconsulted.com/pre-mba-programs/",
       "last_verified": "2026-10-12",
       "needs_review": true,
-      "review_notes": "HIDDEN until checked. Lead from Management Consulted only. Deloitte's own student careers page did not mention this programme, so eligibility, dates and country could not be confirmed.",
+      "review_notes": "HIDDEN until checked. Lead from Management Consulted only. Deloitte's own student careers page did not mention this programme, so eligibility, dates and country could not be confirmed. Re-checked 2026-10-19: Deloitte US student careers page still lists no pre-MBA immersion programme. Stays hidden.",
       "region": "International"
     },
     {
@@ -481,8 +481,32 @@
       "source_url": "https://cdo.som.yale.edu/events/2026/05/18/pre-mba-program-application-deadline-l-e-k-bridge-june-23-24/",
       "last_verified": "2026-10-12",
       "needs_review": true,
-      "review_notes": "HIDDEN until checked. Lead from a Yale School of Management page that lists a 2026 L.E.K. Bridge pre-MBA programme on 23-24 June. L.E.K.'s own pre-MBA page redirected to its general careers page, so details could not be confirmed.",
+      "review_notes": "HIDDEN until checked. Lead from a Yale School of Management page that lists a 2026 L.E.K. Bridge pre-MBA programme on 23-24 June. L.E.K.'s own pre-MBA page redirected to its general careers page, so details could not be confirmed. Re-checked 2026-10-19: L.E.K. pre-MBA URL again redirected to the general careers page. Stays hidden.",
       "region": "International"
+    },
+    {
+      "id": "forage-bcg-introduction-to-strategy-consulting",
+      "title": "BCG: Introduction to Strategy Consulting (job simulation)",
+      "host_name": "Boston Consulting Group (via Forage)",
+      "host_type": "company",
+      "domain": "consulting",
+      "programme_type": "virtual_experience",
+      "audience": "open",
+      "eligibility": "Open sign-up on Forage; the page states no eligibility limits.",
+      "cost": "free",
+      "fee": "Free",
+      "format": "online",
+      "duration": "1-2 hours, self-paced",
+      "registration_open": null,
+      "deadline": null,
+      "start_date": null,
+      "date_status": "rolling",
+      "apply_url": "https://www.theforage.com/simulations/bcg/intro-strategy-consulting-ubsq",
+      "source_url": "https://www.theforage.com/simulations/bcg/intro-strategy-consulting-ubsq",
+      "last_verified": "2026-10-19",
+      "needs_review": false,
+      "review_notes": "Forage page shows a free two-task simulation on raising sales for a fictional luxury clothing company. BCG asks that it not be listed as work experience.",
+      "region": "Global"
     }
   ]
 }
