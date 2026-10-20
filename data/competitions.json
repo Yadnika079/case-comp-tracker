@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19",
+  "updated_at": "2026-10-20",
   "competitions": [
     {
       "id": "tvs-ride-2026-case-competition-track-a",
@@ -1543,6 +1543,50 @@
       "source_url": "https://internshala.com/competitions/ai-business-challenge-2026-by-badruka-school-of-management-2/",
       "needs_review": true,
       "review_notes": "Deadline given is when solutions close (24 Oct); a separate registration deadline is not stated. Individual entries only; no prizes listed. Apply button on Internshala is a sign-in link."
+    },
+    {
+      "id": "unstop-casescend-26-consulting-hansraj-2026",
+      "title": "CASESCEND'26 - The Ultimate Case Competition",
+      "host_name": "Hansraj College, University of Delhi (NEENV HRD Cell)",
+      "host_type": "college",
+      "domain": "consulting",
+      "level": "UG+PG",
+      "ppo_ppi": "Not specified",
+      "cash_prize": "INR 25,000 prize pool (Unstop lists it as in kind) for top 3 teams, plus certificates",
+      "team_size_min": 2,
+      "team_size_max": 4,
+      "registration_open": null,
+      "deadline": "2026-10-23",
+      "event_date": "2026-11-03",
+      "apply_url": "https://unstop.com/competitions/casescend26-the-ultimate-case-competition-hansraj-college-1772545",
+      "source_url": "https://unstop.com/competitions/casescend26-the-ultimate-case-competition-hansraj-college-1772545",
+      "last_verified": "2026-10-20",
+      "needs_review": false,
+      "review_notes": "Quiz 24 Oct, case submission 25-27 Oct, offline final 3 Nov. Prize wording 'in kind' is ambiguous on Unstop.",
+      "region": "India",
+      "date_status": "confirmed"
+    },
+    {
+      "id": "unstop-lemma-dilemma-case-competition-lsr-2026",
+      "title": "Lemma Dilemma Case Competition",
+      "host_name": "Lady Shri Ram College for Women, University of Delhi",
+      "host_type": "college",
+      "domain": "general",
+      "level": "UG+PG",
+      "ppo_ppi": "Not specified",
+      "cash_prize": "Not specified",
+      "team_size_min": 1,
+      "team_size_max": 4,
+      "registration_open": null,
+      "deadline": "2026-10-26",
+      "event_date": "2026-11-05",
+      "apply_url": "https://unstop.com/competitions/lemma-dilemma-case-competition-lady-shri-ram-college-for-women-lsr-du-new-delhi-1772378",
+      "source_url": "https://unstop.com/competitions/lemma-dilemma-case-competition-lady-shri-ram-college-for-women-lsr-du-new-delhi-1772378",
+      "last_verified": "2026-10-20",
+      "needs_review": false,
+      "review_notes": "No prizes listed on the page. Quiz 26 Oct, case submission 2 Nov, offline final 5 Nov (Delhi).",
+      "region": "India",
+      "date_status": "confirmed"
     }
   ]
 }
