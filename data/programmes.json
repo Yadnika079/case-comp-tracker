@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19",
+  "updated_at": "2026-10-26",
   "programmes": [
     {
       "id": "bcg-oneday-virtual-experience",
@@ -285,7 +285,7 @@
       "date_status": "rolling",
       "apply_url": "https://www.theforage.com/simulations/tata/data-visualisation-p5xo",
       "source_url": "https://www.theforage.com/simulations/tata/data-visualisation-p5xo",
-      "last_verified": "2026-10-12",
+      "last_verified": "2026-10-26",
       "needs_review": false,
       "review_notes": "Forage page offers a free simulation; duration taken from Forage's listing.",
       "region": "Global"
@@ -309,7 +309,7 @@
       "date_status": "rolling",
       "apply_url": "https://academy.hubspot.com/",
       "source_url": "https://academy.hubspot.com/",
-      "last_verified": "2026-10-12",
+      "last_verified": "2026-10-26",
       "needs_review": false,
       "review_notes": "HubSpot's page calls the platform free and online. Certifications give a shareable badge.",
       "region": "Global"
@@ -333,9 +333,9 @@
       "date_status": "rolling",
       "apply_url": "https://www.mckinsey.org/our-programs/forward/overview",
       "source_url": "https://www.mckinsey.org/our-programs/forward/overview",
-      "last_verified": "2026-10-12",
+      "last_verified": "2026-10-26",
       "needs_review": true,
-      "review_notes": "HIDDEN until checked. Re-read 12 Oct 2026: page says Forward is free, a 10-week online programme, available in 130+ countries listed by region (Asia Pacific included) but India is not named. Page says to register interest to be told when applications reopen, so it may not be open right now. Please check the FAQ for India and the current intake.",
+      "review_notes": "HIDDEN until checked. Re-read 12 Oct 2026: page says Forward is free, a 10-week online programme, available in 130+ countries listed by region (Asia Pacific included) but India is not named. Page says to register interest to be told when applications reopen, so it may not be open right now. Please check the FAQ for India and the current intake. Re-read 2026-10-26: page unchanged (still \"register your interest\", India not named). Stays hidden.",
       "region": "Global"
     },
     {
@@ -406,7 +406,7 @@
       "date_status": "rolling",
       "apply_url": "https://www.theforage.com/simulations/mastercard/advisors-client-services-xvlw",
       "source_url": "https://www.theforage.com/simulations/mastercard/advisors-client-services-xvlw",
-      "last_verified": "2026-10-12",
+      "last_verified": "2026-10-26",
       "needs_review": false,
       "review_notes": "Forage page says 'Start Free Simulation'; self-paced, no live sessions.",
       "region": "Global"
@@ -430,7 +430,7 @@
       "date_status": "rolling",
       "apply_url": "https://www.theforage.com/simulations/goldman-sachs/internal-audit-j8c6",
       "source_url": "https://www.theforage.com/simulations/goldman-sachs/internal-audit-j8c6",
-      "last_verified": "2026-10-12",
+      "last_verified": "2026-10-26",
       "needs_review": false,
       "review_notes": "Forage page says 'Start Free Simulation'; self-paced, no live sessions.",
       "region": "Global"
@@ -454,7 +454,7 @@
       "date_status": "rolling",
       "apply_url": "https://www.theforage.com/simulations/fidelity-international/investment-management-bqoj",
       "source_url": "https://www.theforage.com/simulations/fidelity-international/investment-management-bqoj",
-      "last_verified": "2026-10-12",
+      "last_verified": "2026-10-26",
       "needs_review": false,
       "review_notes": "Forage page says 'Start Free Simulation'; self-paced, no live sessions.",
       "region": "Global"
@@ -479,9 +479,9 @@
       "expected_window": "Around May-June 2027 (unconfirmed)",
       "apply_url": "https://www.lek.com/join-lek/lek-pre-mba-program",
       "source_url": "https://cdo.som.yale.edu/events/2026/05/18/pre-mba-program-application-deadline-l-e-k-bridge-june-23-24/",
-      "last_verified": "2026-10-12",
+      "last_verified": "2026-10-26",
       "needs_review": true,
-      "review_notes": "HIDDEN until checked. Lead from a Yale School of Management page that lists a 2026 L.E.K. Bridge pre-MBA programme on 23-24 June. L.E.K.'s own pre-MBA page redirected to its general careers page, so details could not be confirmed. Re-checked 2026-10-19: L.E.K. pre-MBA URL again redirected to the general careers page. Stays hidden.",
+      "review_notes": "HIDDEN until checked. Lead from a Yale School of Management page that lists a 2026 L.E.K. Bridge pre-MBA programme on 23-24 June. L.E.K.'s own pre-MBA page redirected to its general careers page, so details could not be confirmed. Re-checked 2026-10-19: L.E.K. pre-MBA URL again redirected to the general careers page. Stays hidden. Re-checked 2026-10-26: URL redirected to general careers page again. Stays hidden.",
       "region": "International"
     },
     {
@@ -506,6 +506,30 @@
       "last_verified": "2026-10-19",
       "needs_review": false,
       "review_notes": "Forage page shows a free two-task simulation on raising sales for a fictional luxury clothing company. BCG asks that it not be listed as work experience.",
+      "region": "Global"
+    },
+    {
+      "id": "forage-goldman-sachs-controllers",
+      "title": "Goldman Sachs Controllers job simulation",
+      "host_name": "Goldman Sachs (via Forage)",
+      "host_type": "company",
+      "domain": "finance",
+      "programme_type": "virtual_experience",
+      "audience": "open",
+      "eligibility": "Open to anyone; self-paced online simulation. No country limit stated on the page.",
+      "cost": "free",
+      "fee": "Free",
+      "format": "online",
+      "duration": "30-60 minutes, self-paced",
+      "registration_open": null,
+      "deadline": null,
+      "start_date": null,
+      "date_status": "rolling",
+      "apply_url": "https://www.theforage.com/simulations/goldman-sachs/controllers-8npc",
+      "source_url": "https://www.theforage.com/simulations/goldman-sachs/controllers-8npc",
+      "last_verified": "2026-10-26",
+      "needs_review": false,
+      "review_notes": "Forage page says 'Start Free Simulation'; self-paced, no live sessions. Covers fund NAV calculation and financial reporting.",
       "region": "Global"
     }
   ]
