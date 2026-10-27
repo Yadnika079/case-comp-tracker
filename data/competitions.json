@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26",
+  "updated_at": "2026-10-27",
   "competitions": [
     {
       "id": "tvs-ride-2026-case-competition-track-a",
@@ -2173,6 +2173,28 @@
       "needs_review": true,
       "review_notes": "Online individual equity research and valuation contest; open to students and working professionals. Winner prize shown as 100000 on Unstop data but currency not confirmed. Not strictly a student-only case competition.",
       "region": "International",
+      "date_status": "confirmed"
+    },
+    {
+      "id": "gift-city-iimb-finance-olympiad-case-challenge-2026",
+      "title": "GIFT Finance Olympiad 2026 (National Student Case Challenge)",
+      "host_name": "GIFT City with IIM Bangalore (CCMRM)",
+      "host_type": "college",
+      "domain": "finance",
+      "level": "PG",
+      "ppo_ppi": "Not specified",
+      "cash_prize": "Not specified",
+      "team_size_min": 4,
+      "team_size_max": 4,
+      "registration_open": null,
+      "deadline": "2026-10-31",
+      "event_date": null,
+      "apply_url": "https://news.careers360.com/gift-city-iim-bangalore-organise-national-finance-olympiad-2026-registration-last-date-october-31",
+      "source_url": "https://news.careers360.com/gift-city-iim-bangalore-organise-national-finance-olympiad-2026-registration-last-date-october-31",
+      "last_verified": "2026-10-27",
+      "needs_review": true,
+      "review_notes": "Found only on a news article (Careers360); no official organiser page or registration link found. Article says PG students only, teams of 4, first-stage entries close 31 Oct 2026. Prize not stated. Replace apply_url with the official page once found.",
+      "region": "India",
       "date_status": "confirmed"
     }
   ]
