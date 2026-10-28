@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27",
+  "updated_at": "2026-10-28",
   "competitions": [
     {
       "id": "tvs-ride-2026-case-competition-track-a",
@@ -2194,6 +2194,50 @@
       "last_verified": "2026-10-27",
       "needs_review": true,
       "review_notes": "Found only on a news article (Careers360); no official organiser page or registration link found. Article says PG students only, teams of 4, first-stage entries close 31 Oct 2026. Prize not stated. Replace apply_url with the official page once found.",
+      "region": "India",
+      "date_status": "confirmed"
+    },
+    {
+      "id": "unstop-crown-effect-com-craze-mata-sundri-2026",
+      "title": "The Crown Effect: Case Competition (Com-Craze 2.0)",
+      "host_name": "Mata Sundri College for Women (University of Delhi)",
+      "host_type": "college",
+      "domain": "marketing",
+      "level": "UG+PG",
+      "ppo_ppi": "Not specified",
+      "cash_prize": "INR 2,000 / 1,200 / 700 for top 3",
+      "team_size_min": 1,
+      "team_size_max": 4,
+      "registration_open": null,
+      "deadline": "2026-10-29",
+      "event_date": null,
+      "apply_url": "https://unstop.com/competitions/the-crown-effect-a-crown-to-keep-a-legacy-to-save-com-craze-20-mata-sundri-college-for-women-university-of--1776296",
+      "source_url": "https://unstop.com/competitions/the-crown-effect-a-crown-to-keep-a-legacy-to-save-com-craze-20-mata-sundri-college-for-women-university-of--1776296",
+      "last_verified": "2026-10-28",
+      "needs_review": false,
+      "review_notes": "Luxury brand revival case. Preliminary round runs 28 Oct noon to 29 Oct noon; registration closes 29 Oct 12:01 PM IST.",
+      "region": "India",
+      "date_status": "confirmed"
+    },
+    {
+      "id": "unstop-orion-synergy-xlri-jamshedpur-2026",
+      "title": "Synergy '26: Orion Case Study Competition",
+      "host_name": "Xavier School of Management (XLRI), Jamshedpur",
+      "host_type": "college",
+      "domain": "consulting",
+      "level": "UG+PG",
+      "ppo_ppi": "Not specified",
+      "cash_prize": "Not specified",
+      "team_size_min": 1,
+      "team_size_max": 3,
+      "registration_open": null,
+      "deadline": "2026-11-10",
+      "event_date": null,
+      "apply_url": "https://unstop.com/competitions/synergy-26-orion-case-study-competition-xavier-school-of-management-xlri-jamshedpur-1779001",
+      "source_url": "https://unstop.com/competitions/synergy-26-orion-case-study-competition-xavier-school-of-management-xlri-jamshedpur-1779001",
+      "last_verified": "2026-10-28",
+      "needs_review": false,
+      "review_notes": "Consulting case by CRUX club at XLRI's Synergy fest. Prize details not captured; check the page.",
       "region": "India",
       "date_status": "confirmed"
     }
